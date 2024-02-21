@@ -3,8 +3,8 @@ local M = {}
 
 M.general = {
   n = {
-    ["c"] = { '"_c', "Do not yank when copying", opts = {noremap = true} },
-    ["C"] = { '"_C', "Do not yank when copying", opts = {noremap = true} },
+    ["c"] = { '"_c', "Do not yank when changing", opts = {noremap = true} },
+    ["C"] = { '"_C', "Do not yank when changing", opts = {noremap = true} },
     ["<leader>u"] = { "<cmd> UndotreeToggle<cr>", "Toggle Undotree", opts = {noremap = true} },
     ["<leader>d"] = { "<cmd> Nvdash<cr>", "Go to dashboard", opts = {noremap = true} },
     ["<leader>G"] = { "<cmd> Neogit<cr>", "Open Neogit", opts = {noremap = true} },

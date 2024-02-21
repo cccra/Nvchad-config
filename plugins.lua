@@ -50,22 +50,6 @@ local plugins = {
 		cmd = "UndotreeToggle",
 	},
 
-  {
-    "epwalsh/obsidian.nvim",
-    lazy = true,
-    event = { "BufReadPre " .. vim.fn.expand "~" .. "/dox/vault/**.md" },
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-      "hrsh7th/nvim-cmp",
-    },
-    opts = {
-      dir = "~/dox/vault",
-      mappings = {
-        ["gf"] = "gf",
-      },
-    },
-  }
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",

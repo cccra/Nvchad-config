@@ -31,6 +31,7 @@ local plugins = {
     cmd = "Neogit",
     dependencies = {
       "nvim-lua/plenary.nvim",         -- required
+      "sindrets/diffview.nvim",
     },
     config = function()
       require("custom.configs.neogit")
